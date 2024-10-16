@@ -1,0 +1,17 @@
+f = open('Sample.txt','w')
+print('file name is :',f.name)
+print('file mode is :',f.mode)
+print('is file readable?',f.readable())
+print('is file writeable ?',f.writable())
+print('is file closed ?',f.closed)
+f.close()
+print('is file closed?',f.closed)
+print()
+
+
+f = open('abc.txt','w')
+f.write('Hello\n')
+f.write('DurgaSoft\n')
+f.write('Hyderabad\n')
+print('Data Written to the file')
+f.close()
